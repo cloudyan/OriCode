@@ -1,0 +1,12 @@
+
+hello
+
+git@github.com:xiaohan1219/OriCode.git
+
+https://xiaohan1219@github.com/xiaohan1219/OriCode.git
+
+
+  
+还是没有操作熟练
+
+同步还是有问题
