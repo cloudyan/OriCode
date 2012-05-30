@@ -1,0 +1,78 @@
+/* Quote base2.css 基于alipay Alice项目&&Yahoo Yui Create:2012-4-9 Author:CloudYan qq:1395093509   */
+/*reset.css*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,figure,menu{margin:0;padding:0}article,aside,details,embed,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}command,datalist,keygen,mark,meter,progress,rp,rt,ruby,time,wbr{display:inline}table{border-collapse:collapse;border-spacing:0}th{text-align:inherit}fieldset,img{border:0}iframe{display:block}:focus{outline:0}abbr,acronym{border:0;font-variant:normal}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}ol,ul{list-style-type:none}caption,th{text-align:left}button,input,select,textarea{font-size:100%}q:before,q:after{content:''}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}a:hover{text-decoration:underline}ins,a{text-decoration:none}img{vertical-align:top}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}
+/*common.css*/
+.clearfix:after,.wrap:after,.cwrap:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+.clearfix,.wrap,.cwrap{zoom:1}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+body{font:12px/1.5 tahoma,arial,\5b8b\4f53;}button,input,select,textarea{}
+blockquote,pre{white-space:pre-wrap;word-wrap:break-word;}
+.text-size{-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+.text-justify{text-align:justify;text-justify:inter-ideograph;}
+.opacity {opacity:.5;filter:alpha(opacity=50);}i,em{ font-style:normal}
+.text-ell{display:block;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.css3_shadow{transition:all 1s ease-out 0s;border-radius:5px;box-shadow:0 0px 4px rgba(206, 201, 170, 0.8);}
+.css3_shadow:hover{box-shadow:0 0px 5px rgba(206, 201, 170, 1);}
+a{color:#000}a:visited{color:;}a:hover{color:#f00}.view_more{color:#06c;padding:0 2px;}.view_detail{color:#970314; padding:0 3px;}
+.yahei{font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1","黑体"}.ie6png{}
+.fl,.fr{display:inline}.fl{float:left;}.fr{float:right}
+.bc{margin-left:auto;margin-right:auto;}.tc{text-align:center}
+.f12{font-size:12px}.f14{font-size:14px}.f16{font-size:16px}.f18{font-size:18px}.f22{font-size:22px}.f24{font-size:24px}
+.lh18{line-height:18px}.lh20{line-height:20px}.lh22{line-height:22px}.lh24{line-height:24px}
+.mt10{margin-top:10px}.mt20{margin-top:20px}.mb10{margin-bottom:10px}.mb20{margin-bottom:20px}
+.ml10{margin-left:10px}.mr10{margin-right:10px}.pd10{padding:10px}.pt10{padding-top:10px}.pb10{padding-bottom:10px}.plr10{padding-left:10px;padding-right:10px}
+
+.wrap{width:980px; margin-left:auto; margin-right:auto}
+.cwrap{padding:8px 8px 0;margin-left:auto;margin-right:auto; background:white;}
+/*c_common.css*/
+.bigimg{background:url(../images/img-loading.gif) no-repeat 50% 50%;}
+.hr_a,.hr_b{font-size:1px;line-height:1px;display:block;clear:both;overflow:hidden}.hr_a{height:10px}.hr_b{height:5px}
+.B,.fb{font-weight:bold}.fnb{font-weight:normal}
+.tc{text-align:center}.tr{text-align:right}.dis{display:block}.undis{display:none}
+.p_rel{position:relative}.p_abs{position:absolute}
+.hor li{display:inline;float:left;}.hor li a{display:block;float:left}
+.disa a{display:block;width:100%;height:100%;background:url(about:blank);text-indent:-9999px;}
+/* 以上为默认引入样式
+====================================================================================================*/
+.JS_tab_nav li{cursor:pointer}
+.JS_tab_switch .tabcon{ display:none}
+.JS_tab_switch .selected{ display:block}
+/*页面自定义样式*/
+.head-top{ /*overflow:hidden*/}
+body,button,input,select,textarea{font:12px/22px \5b8b\4f53,Arial,Helvetica,sans-serif;}
+.wrap{width:980px; margin-left:auto; margin-right:auto;}
+.cwrap{width:960px;margin-left:auto;margin-right:auto;}
+#content{ margin:0 auto;}#footer{ margin-top:-30px; position:relative; z-index:10}
+.aside{width:235px;}.main{width:735px;}
+.bd{border:1px solid #C2C2C2}.bda{border:2px solid #FFE3E2}
+.zt_bg{ background:url(../images/bg.jpg) top center no-repeat;}
+
+.zt_box1,.zt_box2,.zt_box3,.zt_box4{ position:relative; width:940px; padding:8px 10px; z-index:4}
+.zt_box1{}
+.zt_nav{}
+.zt_nav li{}
+
+
+/*图片滚动*/
+.scoll_box{ position:relative;z-index:10}
+.scoll_box span.prev,.scoll_box span.next {width:37px;height:38px;top:55px;background:url(../images/png_bg.png) no-repeat;cursor:pointer;position:absolute;display:block;z-index:100}
+.scoll_box span.prev {left:0px;background-position:0 -154px;}
+.scoll_box span.next {right:0px;background-position:-37px -154px;}
+.scoll_box span.prev:hover {left:0px;background-position:0 -192px;}
+.scoll_box span.next:hover {right:0px;background-position:-37px -192px;}
+
+.zt_scoll{ padding:5px 55px;}
+.zt_scoll li{ margin:0 10px; padding:5px; background:#fff; width:130px; height:130px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

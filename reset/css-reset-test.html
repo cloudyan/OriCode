@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css reset测试页面</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="reset.css" />
+<!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+<!--[if lt IE 9]>
+<script src="html5.js"></script>
+<![endif]-->
+<!--[if ie 6]>
+<script src="http://pic.lvmama.com/js/zt/DD_belatedPNG.js"></script> 
+<script>DD_belatedPNG.fix('.ie6png');</script>
+<![endif]-->
+<style>
+/*测试样式*/
+article, aside, details, figcaption, footer, header, hgroup, menu, nav, section { margin-bottom:10px; background:#ccc; }
+.img {border:3px solid #F96}
+.test {width:240px; background:#eee;}
+</style>
+<base target="_blank">
+<!--html5中单标签不用结束符号，具体请参阅html5及css注意事项-->
+</head>
+<body>
+body 这里展现了html5标签在样式reset之后的效果（关于html5标签，详情请参考<a href="http://www.w3school.com.cn/html5/html5_reference.asp">http://www.w3school.com.cn/html5/html5_reference.asp</a>）
+<header>header</header>
+<hgroup>hgroup</hgroup>
+<nav>nav</nav>
+<menu>menu</menu>
+<section>section </section>
+<article>article</article>
+<aside>aside</aside>
+<details>details-默认标题是详细信息</details>
+<details>
+  <summary>HTML 5</summary>
+  This document teaches you everything you have to learn about HTML 5. </details>
+<!--details标签在google浏览器中别树一帜，也是个发展的趋向，但暂时应避免使用，但在Chromium中会给详细信息标题默认添加outline，但使用summary标签后的标题则没有添加-->
+<!--刚发现一个问题，Chrome下点击detailes标签时，竟然跳转了类似锚点的，但是刷新一下后就没有跳转的问题了-->
+<figure><figcaption>这儿是figure 元素的标题，放置在figure中第一或最后的位置</figcaption>
+<a href="#"><img class="img" alt="figure标签"  title="figure标签" src="html5-logo.png" width="300" height="300"></a>
+</figure>
+<footer>footer</footer>
+<h1>(h1)HTML5!</h1>
+<h2>(h2)tModular Html5-css-jQuery</h2>
+<h3>h3 title</h3>
+<h4>h4 title</h4>
+<h5>h4 title</h5>
+<h6>h6 title</h6>
+<div>div</div>
+<p>p</p>
+<iframe src="#">iframe 在 HTML 5 中，仅仅支持 src 属性</iframe>
+<dl>
+  <dt>dt-列表中的项目</dt>
+  <dd>dd-描述列表中的项目</dd>
+</dl>
+<p>以下是短语元素<br>
+  <em>em</em> <strong>strong</strong> <dfn>fen</dfn> <code>code</code> <samp>samp</samp> <kbd>kbd</kbd> <var>var</var> <cite>cite</cite><br>
+  还有 <b>b</b> <i>i</i> </p>
+<abbr>abbr 表示一个缩写形式，比如 "Inc."、"etc."。</abbr>
+<address>
+address 定义联系信息
+</address>
+<p>html5中的新标签，会常用的有：header,footer,section,nav,menu,article,aside,hgroup,figure,figcaption,hgroup<br>
+注意：html5中不支持的标签，常见的有（big,center,font,frame,s,u），以后减少使用或尽量不用<br>
+以下标签在html5中不要写结束标记（&lt;area&gt; &lt;base&gt; &lt;br&gt; &lt;col&gt; &lt;command&gt; &lt;embed&gt; &lt;hr&gt; &lt;img&gt; &lt;input&gt; &lt;keygen&gt; &lt;link&gt; &lt;meta&gt; &lt;param&gt; &lt;source&gt; &lt;track&gt; &lt;wbr&gt;）</p>
+</body>
+</html>

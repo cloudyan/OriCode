@@ -1,0 +1,47 @@
+
+关于HTML5中之省略标记元素的问题
+
+不允许写结束标记的元素有：
+<area> <base> <br> <col> <command> <embed> <hr> <img> <input> <keygen> <link> <meta> <param> <source> <track> <wbr>
+
+可以省略结束标记的元素有：
+<li> < dt> <dd> <p> <rt rp> <optgroup> <option> <colgroup> < thead> <tbody> <tfoot> <tr> <td> <th>
+
+可以省略全部标记的元素有：
+<html> <head> <body> <colgroup> <tbody>
+
+
+html5的Doctype声明，不必写type="text/css" 但是必须要有 rel="stylesheet"
+
+
+
+* 研究规划
+* 第一步通用reset.css
+* 第二步全站公共样式—common.css
+        包括全站统一样式定义；如：a,a:hover等
+	基础的模块组合样式；如：.f14,.mt10,.tc等
+* 第三步css模块—c_common.css
+        包括模块公共样式提取        公共模块样式
+        模块个性化样式（类似新模块，但多处使用的）
+* 第四步网站架构css差异化如何书写及管理css
+        单页面/项目css（个性化css）规划
+------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

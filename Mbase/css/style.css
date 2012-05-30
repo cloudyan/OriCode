@@ -1,0 +1,55 @@
+/* Quote base2.css 基于alipay Alice项目&&Yahoo Yui Create:2012-4-9 Author:CloudYan qq:1395093509   */
+/* = Public Styles css reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;}
+article,aside,details,embed,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+command,datalist,keygen,mark,meter,progress,rp,rt,ruby,time,wbr{display:inline;}
+input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+th{text-align:inherit;}
+fieldset,img{border:0;}
+iframe{display:block;}
+abbr,acronym{border:0;font-variant:normal;}
+del {text-decoration:line-through;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:500;}
+ol,ul{list-style-type:none}
+caption,th {text-align:left;}img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:500;}
+q:before,q:after {content:'';}sub,sup {font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}
+a:hover {text-decoration:underline;}ins,a {text-decoration:none;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clr{clear:both}
+.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix, *:first-child+html .clearfix {zoom:1}.disa a{display:block;width:100%;height:100%;background:url(about:blank);text-indent:-9999px;}.disa a{display:block;background:url(about:blank)}.alpha{margin-left:0 !important}.omega{margin-right:0 !important}
+.fl,.fr{display:inline}.fl{float:left;}.fr{float:right}.bc{margin-left:auto;margin-right:auto;}.tc{text-align:center}.tr{text-align:right}.dis{display:block}.undis{display:none}
+/* change the settings to suit your needs */
+.B,.fb{font-weight:bold}.fnb{font-weight:normal}.hr_a,.hr_b{font-size:1px;line-height:1px;display:block;clear:both;overflow:hidden}.hr_a{height:10px}.hr_b{height:5px}.hor li{display:inline;float:left;}.hor li a{display:block;float:left}
+.bigimg{background:url(../images/img-loading.gif) no-repeat 50% 50%;}
+.yahei{font-family: "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1","微软雅黑"}
+.first_child .first{}
+.tab_nav li{cursor:pointer}.JS_tab_menu a{outline:none}
+.tab_switch .tabcon{display:none}.tab_switch .selected{ display:block}
+.scoll_btn a.btn{display:block; cursor:pointer}
+.scoll_box{ position:relative;z-index:10}
+.scoll_box span.prev,.scoll_box span.next {width:20px;height:30px;top:55px;background:url(../images/arrow.png) no-repeat;cursor:pointer;position:absolute;display:block;z-index:100}
+.scoll_box span.prev {left:0px;background-position:left center;}
+.scoll_box span.next {right:0px;background-position:right center;}
+body .fn-hide {display:none;}
+a{text-decoration:none;color:#06c}a:hover{color:#c06;text-decoration:underline}.view_more{color:#06c;padding:0 2px;}.red{color:#f00}
+h1,h2,h3,h5,.fb,.B{font-weight:bold}h4,h6,.fnb{font-weight:normal}h1{font-size:18px}h2{font-size:16px}h3,h4{font-size:14px}h5,h6{font-size:12px}.white{color:white}
+
+/* 页面主体样式 */
+body,button,input,select,textarea{font:12px/1.5 \5b8b\4f53,Arial,Helvetica,sans-serif;}
+.cArea,.sArea{margin-left:auto; margin-right:auto; clear:both}
+.cArea{width:980px;}.sArea{width:970px;}
+body{ color:#333;font:12px/22px \5b8b\4f53,Arial,Helvetica,sans-serif;}
+#content{ margin:0 auto;}
+.aside{width:235px;}.main{width:735px;}
+.bd{border:1px solid #C2C2C2}.bda{border:2px solid #FFE3E2}
+
+
+/*幻灯切换*/
+.promo { width:730px; height:296px; padding:1px; }
+.promo_show{ width:730px; height:265px; overflow:hidden}
+.promo .bigimg img {display:none;}.promo .bigimg img {display:none;}
+.promo_num li { cursor:pointer; display:block; float:left; }
+.promo_num li {border-right: 1px solid #DCDCDC;color: #325E7F;cursor: pointer;display: block;float: left;font-size: 14px;height: 31px;line-height: 31px;overflow: hidden;text-align: center;width: 145px;}
+.promo_num li.Current {color:#B80105;}
